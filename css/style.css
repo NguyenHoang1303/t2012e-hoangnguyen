@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+div{
+    font-size: 11px;
+    padding-left: 500px;
+    padding-right: 500px;
+    font-family: Tahoma;
+
+}
+.text-bold{
+    font-weight: bold;
+}
+.text-italics{
+    font-style: italic;
+}
+.text-color{
+    color: red;
+    font-weight: bold;
+}
+.green-text{
+    color: green;
+    text-decoration: underline;
+    font-style: italic;
+}
+img {
+    padding-top: 20px;
+}
+.red{
+    color: red;
+    font-family: Consolas;
+    font-style: italic;
+}
+ul{
+    font-family: Consolas;
+}
+
