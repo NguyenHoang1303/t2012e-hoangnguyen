@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tiêu đề của trang</title>
+    <style>
+        #first-para .special-text {
+            color: deeppink;
+            font-size: 25px;
+        }
+
+        #first-para > .special-text {
+            color: rosybrown;
+            font-size: 25px;
+        }
+
+        #second-para .special-text {
+            color: greenyellow;
+            font-size: 20px;
+        }
+        p[title="vip"]{
+            color: magenta;
+        }
+        p[autofocus="autofocus"] {
+            color: orange;
+        }
+        form[name="register-form"] input[name="username"] {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+<h2>Register</h2>
+<form action="" name="register-form">
+    <div>Username <input type="text" name="username"></div>
+    <div>Password <input type="password" name="password"></div>
+    <div>Email <input type="email" name="email"></div>
+    <div>Address <input type="text" name="address"></div>
+</form>
+<h2>Login</h2>
+<form action="" name="login-form">
+    <div>Username <input type="text" name="username"></div>
+    <div>Password <input type="password" name="password"></div>
+</form>
+<p>Hello world</p>
+<p title="vip">Hello world</p>
+<p autofocus="autofocus">Hello world</p>
+<p>Hello world</p>
+<p>Hello world</p>
+<div id="first-para">
+    <p class="special-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    </p>
+    <p class="special-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    </p>
+    <p class="special-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    </p>
+    <div>
+        <p class="special-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        </p>
+        <p class="special-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        </p>
+    </div>
+</div>
+<hr>
+<div id="second-para">
+    <p class="special-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    </p>
+</div>
+</body>
+</html>
+</body>
+</html>
