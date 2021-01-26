@@ -1,0 +1,15 @@
+body{
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Verdana;
+}
+.heading{
+        font-weight: bold;
+    font-size: 16px;
+    padding:10px 0px 10px 0px;
+    clear: both;
+}
+ul.imglist{
+    list-style-image:url('sqpurple.gif');
+
+}
