@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/youtube.css">
+</head>
+<body>
+<header>
+    <div class="logo col-4 col-s-6">
+        <img src="img/youtube.png" alt="">
+        <h1>Youtube</h1>
+    </div>
+    <div class="search-name col-8 col-s-6" >
+        <form action="#" name="search-form">
+            <input class="txtName" type="text" name="keyword" placeholder="Tìm kiếm" required>
+            <button type="button" value="search" name="search">Search</button>
+            <p id="error"></p>
+        </form>
+    </div>
+
+</header>
+<div id="myModal" class="modal">
+        <span class="close">&times;</span>
+    <iframe class="modal-content" id="video-frame" src=""></iframe>
+</div>
+<div id="result"></div>
+<script src="js/youtube.js"></script>
+</body>
+</html>

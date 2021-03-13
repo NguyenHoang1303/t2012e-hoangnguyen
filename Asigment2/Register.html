@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/assigment2.css">
+</head>
+<body>
+<div class="bgr" >
+    <div class="container">
+        <h1>Register</h1>
+            <form method="POST" name="register-form">
+
+            <div class="row">
+                <div class="input-group">
+                    <label class="label" for="firstName">First Name</label>
+                    <input class="input-style" type="text" name="firstName" id="firstName" required>
+                </div>
+                <div class="input-group">
+                    <label class="label" for="lastName">Last Name</label>
+                    <input class="input-style" type="text"name="lastName" id="lastName" required>
+                </div>
+            </div>
+
+            <div class="row">
+                 <div class="input-group">
+                        <label class="label" for="address">Address</label>
+                        <input class="input-style" type="text" name="address" id="address" required>
+                 </div>
+                 <div class="input-group">
+                        <label class="label" for="phone">Phone</label>
+                        <input class="input-style" type="tel" name="phone" id="phone" required>
+                 </div>
+            </div>
+
+            <div class="row">
+                <div class="input-group">
+                    <label class="label">Birthday</label>
+                    <input class="input-style" type="text" name="birthday" placeholder="yyyy-MM-dddd">
+                </div>
+                <div class="input-group">
+                    <label class="label">Gender</label>
+                    <div class="p-t-10">
+                        <label class="radio-container m-g-60">Male
+                            <input type="radio" checked="checked" name="gender" value="1">
+                        </label>
+                        <label class="radio-container">Female
+                            <input type="radio" name="gender" value="2">
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <label class="label" for="email">Email</label>
+                <input class="input-style" type="email" name="email" id="email" required>
+            </div>
+
+            <div class="row">
+                 <label class="label" for="avatar">Avatar</label>
+                 <input class="input-style" type="text" name="avatar" id="avatar" placeholder="" required>
+            </div>
+
+            <div class="row">
+                <label class="label" for="psw">Password</label>
+                <input class="input-style" type="password" name="password" id="psw" required>
+            </div>
+
+            <div class="row">
+                <label class="label" for="psw-repeat">Repeat Password</label>
+                <input class="input-style" type="password" name="password-repeat" id="psw-repeat" required>
+            </div>
+
+            <div class="p-t-15">
+                  <button class="btn" type="button" name="btn-submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<script src="js/assigment2.js"></script>
+</body>
+</html>
