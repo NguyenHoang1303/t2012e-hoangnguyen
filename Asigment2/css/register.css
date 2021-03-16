@@ -1,0 +1,194 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+
+}
+body{
+    background-image: url("../img/eminem0.jpg");
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+
+}
+
+
+header{
+    padding: 0 10%;
+    max-height: 150px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.logo-img img{
+    height: 150px;
+
+}
+
+h1{
+    color: #FFF;
+    font-weight: bolder;
+    align-self: center;
+}
+
+.menu{
+    align-self: center;
+    width: 50%;
+
+}
+
+.menu ul{
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    padding-left: 16%;
+
+}
+
+.menu ul li {
+    margin: 10px;
+    font-size: 17px;
+}
+a{
+    color: #FFFFF7;
+    text-decoration: none;
+}
+
+
+
+.bgr{
+    opacity: 0.9;
+
+}
+
+h1{
+    margin-bottom: 22px;
+    text-align: center;
+    color: #fffff7;
+}
+
+
+.container {
+    padding: 50px;
+    margin: 0 auto;
+    max-width: 680px;
+    border-radius: 10px;
+    background-color: #323232;
+}
+.row{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+}
+
+input{
+    width: 100%;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.label{
+    font-size: 16px;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+    color: #FFFFF7;
+}
+.input-style{
+    height: 50px;
+    background: #808080;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+}
+.p-t-15{
+    display: flex;
+    justify-content: center;
+}
+.p-t-10{
+    padding-top: 10px;
+}
+
+.m-g-60{
+    margin-right: 60px;
+}
+.radio-container{
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+}
+
+
+.btn {
+    border-radius: 5px;
+    line-height: 50px;
+    padding: 0 50px;
+    transition: all 1s ease;
+    cursor: pointer;
+    font-size: 18px;
+    background: #404040;
+    color: #b0b0b0;
+    font-weight: bold;
+
+}
+
+.btn:hover {
+    background: #ffffff;
+    color: black;
+}
+
+@media (max-width: 900px) {
+    header{
+        flex-direction: column;
+        max-height: 230px;
+        padding: 0;
+
+    }
+    .logo{
+        justify-content: center;
+        width: 100%;
+
+    }
+    .logo img{
+        max-height: 100px;
+    }
+
+    .menu ul  {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .menu ul li{
+        font-size: 12px;
+    }
+
+    .input-group{
+        width: 100%;
+    }
+    .gender{
+        margin-top: 22px;
+    }
+
+    body{
+        background-image: url("../img/eminem0.jpg");
+        background-size: cover;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        height: 100%;
+    }
+}
+
+
+

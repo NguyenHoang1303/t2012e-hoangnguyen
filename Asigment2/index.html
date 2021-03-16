@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tạo bài hát</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/Json_form.css">
+</head>
+<body>
+
+<div class="container-fluid">
+    <h1>
+        <div class="row justify-content-center align-items-center">
+            <img src="img/troll-omg-face.png" alt="">
+            Tạo bài hát
+        </div>
+    </h1>
+
+    <div class="row justify-content-center align-items-center">
+        <form action="#" target="_blank" method="post" name="register-form">
+            <fieldset>
+                <div class="col">
+                    <label class="poniter" for="name">Tên bài hát</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Tên bài hát">
+                    <span></span>
+                </div>
+                <!--                <div class="col">-->
+                <!--                    <label class="poniter" for="firstName">Mô tả</label>-->
+                <!--                    <input type="text" class="form-control" id="description" name="firstName" placeholder="Mô tả" >-->
+                <!--                    <span></span>-->
+                <!--                </div>-->
+                <div class="col">
+                    <label class="poniter" for="singer">Ca sĩ</label>
+                    <input type="text" class="form-control" id="singer" name="singer" placeholder="Tên ca sĩ" >
+                    <span></span>
+                </div>
+                <div class="col">
+                    <label class="poniter" for="author">Tác giả</label>
+                    <input type="text" class="form-control" id="author" name="author" placeholder="Tên tác giả" >
+                    <span></span>
+                </div>
+                <div class="col">
+                    <label class="poniter" for="thumbnail">Link ảnh</label>
+                    <input type="text" class="form-control" id="thumbnail" name="thumbnail" placeholder="Nhập link ảnh">
+                    <span></span>
+                </div>
+                <div class="col mb-3">
+                    <label class="poniter" for="link">Link MP3</label>
+                    <input type="text" class="form-control" id="link" name="link" placeholder="Nhập link mp3">
+                    <span></span>
+                </div>
+            </fieldset>
+            <div class="row justify-content-center align-items-center">
+                <div>
+                    <input style="font-size: 20px; float: left" class="chuyen_dong " type="submit" value="Gửi" name="send_mp3">
+                </div>
+                <div>
+                    <input style="font-size: 20px" class="chuyen_dong" type="reset" value="Làm lại" name="reset">
+                </div>
+                <div>
+                    <a class="btn btn-primary btn-sm btn-block" href="My_song.html" role="button">Quay lại</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="js/jquery-3.6.0.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="js/Json_creat_song.js"></script>
+</body>
+</html>

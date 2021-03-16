@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+body{
+    background-image: url("../img/eminem0.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+header{
+    padding: 0 5%;
+    max-height: 150px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-self: center;
+}
+
+.logo{
+    width: 30%;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.logo-img img{
+    height: 150px;
+
+}
+
+h1{
+    color: #FFF;
+    font-weight: bolder;
+    align-self: center;
+}
+
+.menu{
+    align-self: center;
+    width: 70%;
+
+}
+
+.menu ul{
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    padding-right: 0;
+
+}
+
+.menu ul li {
+    margin: 10px;
+    font-size: 17px;
+}
+
+a{
+    color: #FFFFF7;
+    text-decoration: none;
+}
+
+
+
+.container{
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #2a3880;
+    opacity: 1;
+    width: 50%;
+
+}
+
+h2{
+    text-align: center;
+}
+
+.input-group{
+    margin: 10px;
+
+}
+
+.label{
+    font-size: 18px;
+    color: #FFFFF7;
+}
+
+.input-style{
+    width: 100%;
+    display: flex;
+    height: 35px;
+    background: #dedede;
+    border-radius: 3px;
+    padding: 0 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    border: none;
+}
+.row{
+    display: flex;
+}
+.row-chl{
+    width: 50%;
+}
+
+.row-chl img{
+    width: 100%;
+}
+
+
+.btn-center{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    border-radius: 5px;
+    line-height: 30px;
+    padding: 0 25px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    font-size: 18px;
+    background: #404040;
+    color: #b0b0b0;
+    margin-right: 5px;
+}
+
+.btn:hover{
+    color: #ffffff;
+    background-color: #008aff;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 400px) {
+    .menu ul li{
+        font-size: 12px;
+    }
+}
+
+
+
+@media (max-width: 900px) {
+    header{
+        flex-direction: column;
+        max-height: 230px;
+        padding: 0;
+
+    }
+    .logo{
+        justify-content: center;
+        width: 100%;
+
+    }
+    .logo img{
+        max-height: 100px;
+    }
+
+    .menu ul  {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .menu ul li{
+        font-size: 12px;
+    }
+
+    .input-group{
+        width: 100%;
+    }
+    .gender{
+        margin-top: 22px;
+    }
+
+    .container{
+        margin: 50px 50px;
+        padding: 20px;
+        color: #ffffff;
+        width: 100%;
+        border-radius: 8px;
+        background-color: #2a3880;
+    }
+
+}
+
+
